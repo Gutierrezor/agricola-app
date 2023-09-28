@@ -1,0 +1,32 @@
+.navbar-brand img {
+    height: 85px; /* Por ejemplo, limita la altura a 100 píxeles */
+}ng
+
+/* Dentro de tu archivo de hojas de estilo CSS (styles.css) */
+.navbar-brand    {
+    font-family: 'SadistisDemo', sans-serif; /* 'sans-serif' como fuente de respaldo */
+    color: green;
+}
+
+.container-fluid {
+    background: #212429;
+    height: 60px;
+    border-bottom: 1px solid #212429;
+    display:flex;
+    justify-content: space-between;
+}
+
+.container-fluid a{
+    font-family: impact;
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid a:hover:not(.navbar-brand) {
+    background: green;
+   color:#212429;
+}
